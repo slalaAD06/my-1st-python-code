@@ -1,0 +1,16 @@
+# A simple program to calculate your marketing ROI (Return on Investment)
+print("--- LI XUN'S MARKETING TERMINAL ---")
+
+budget = float(input("Enter your ad budget in PHP: "))
+revenue = float(input("Enter total revenue generated: "))
+
+roi = ((revenue - budget) / budget) * 100
+
+print(f"Your Return on Investment is: {roi:.2f}%")
+
+if roi > 200:
+    print("Status: Dominating the market. Excellent execution.")
+else:
+    print("Status: Inefficient. Optimize the code and the strategy.")
+    print("Status: Inefficient. Optimize the code and the strategy.")
+
